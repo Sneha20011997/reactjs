@@ -5,14 +5,14 @@ const CompA = () =>{
   const [obj,setObj]=useState({
     key1:0,
     key2:100,
-    key3:500
+    key3:200
   });
 
   const stateUpdater = () => {
     setObj({
       ...obj,
-      key1:900,
-      key2:500
+      key1:300,
+      key2:400
     })
   }
 
